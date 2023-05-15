@@ -2,15 +2,17 @@
 - - - -
 # 1. JZ access:
 ### ssh to CAL1 from your local computer (`ssh -Y yourlogin@ige-meom-cal1.u-ga.fr`):
-	* Open file  `.bash_profile` or `.bashrc`in your local $home directory:
+* Open file  `.bash_profile` or `.bashrc`in your local $home directory:
+
 ```
 vi .bash_rc
 ```
-	* Edit file by adding this line:
+* Edit file by adding this line:
+
 ```
 alias log2CAL1=‘ssh -Y yourlogin@ige-meom-cal1.u-ga.fr’
 ```
-	* Save the file with vi: `:wq`
+* Save the file with vi: `:wq`
 	
 
 ### Puis ssh JZ (`ssh -X yourlogin@jean-zay.idris.fr`)
