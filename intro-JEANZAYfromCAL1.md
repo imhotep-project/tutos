@@ -15,17 +15,19 @@ alias log2CAL1=‘ssh -Y yourlogin@ige-meom-cal1.u-ga.fr’
 * Save the file with vi: `:wq`
 	
 
-### Puis ssh JZ (`ssh -X yourlogin@jean-zay.idris.fr`)
-	* Open the file  `.bash_aliases`   in your $home on CAL1 :
+### Then ssh to JZ from CAL1 (`ssh -X yourlogin@jean-zay.idris.fr`)
+* Open the file  `.bash_aliases`   in your $home on CAL1 :
+
 ```
 cd $home
 vi .bash_aliase
 ```
-	* And add this line in file :
+* And add this line in file :
+
 ```
 alias log2JZ=‘ssh -X yourlogin@jean-zay.idris.fr’
 ```
-	* Save the file with vi: `:wq`
+* Save the file with vi: `:wq`
 	
 - - - -
 # 2. Copy ssh keys
