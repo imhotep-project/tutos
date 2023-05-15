@@ -67,13 +67,16 @@ module load climate_science/
 
 * Les simulations IMHOTEP: where are the data?
 https://doc-imhotep.readthedocs.io/en/latest/3-Model-outputs.html#how-to-get-access
+
 * example 1: display the header of a netcdf files to see which variables are in it:
+
 ```
 cd /gpfsstore/rech/cli/rcli002/eORCA025.L75/eORCA025.L75-IMHOTEP.GAI-S/1y/2018/
 ncdump -h eORCA025.L75-IMHOTEP.GAI_y2018.1y_gridTsurf.nc
 ```
 
-	* example 2:  visualize several files with `ncview`:
+* example 2:  visualize several files with `ncview`:
+
 ```
 cd /gpfsstore/rech/cli/rcli002/eORCA025.L75/eORCA025.L75-IMHOTEP.GAI-S/1y/
 ncview  ./????/eORCA025.L75-IMHOTEP.GAI_y????.1y_gridTsurf.nc &
