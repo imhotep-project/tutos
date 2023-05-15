@@ -29,7 +29,7 @@ alias log2JZ=‘ssh -X yourlogin@jean-zay.idris.fr’
 ```
 * Save the file with vi: `:wq`
 	
-- - - -
+	
 # 2. Copy ssh keys
  (to avoid typing passwords)
 * Full tuto here: http://www.tux-planet.fr/installer-une-cle-ssh-sur-un-serveur-distant/
@@ -42,7 +42,6 @@ alias log2JZ=‘ssh -X yourlogin@jean-zay.idris.fr’
 		* Then  `ssh-copy-id -I ~/.ssh/id_rsa.pub yourloginonJEANZAY@jean-zay.idris.fr`
 
 
-- - - -
 # 3. Jean-Zay from the terminal:
 * Memo from IDRIS :  http://www.idris.fr/media/su/idrischeatsheet.pdf
 * Memo from MEOM GitHub: https://github.com/meom-group/tutos/tree/master/jean-zay
