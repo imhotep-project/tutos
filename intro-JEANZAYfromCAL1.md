@@ -50,10 +50,6 @@ alias log2JZ=‘ssh -X yourlogin@jean-zay.idris.fr’
 	* (partie 5): accès, rappels sécurités et mot de passe.
 	* **Partie 7**: **les espaces disques**
 
-* Your id  :   ufi72ye
-* Stephanie: regi915
-* Jean Marc: rcli002
-
 * Useful softwares and how to load them:
 	* ncview
 	* nco et netcdf
