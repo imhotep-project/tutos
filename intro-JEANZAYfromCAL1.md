@@ -72,6 +72,7 @@ https://doc-imhotep.readthedocs.io/en/latest/3-Model-outputs.html#how-to-get-acc
 
 ```
 cd /gpfsstore/rech/cli/rcli002/eORCA025.L75/eORCA025.L75-IMHOTEP.GAI-S/1y/2018/
+
 ncdump -h eORCA025.L75-IMHOTEP.GAI_y2018.1y_gridTsurf.nc
 ```
 
@@ -79,6 +80,7 @@ ncdump -h eORCA025.L75-IMHOTEP.GAI_y2018.1y_gridTsurf.nc
 
 ```
 cd /gpfsstore/rech/cli/rcli002/eORCA025.L75/eORCA025.L75-IMHOTEP.GAI-S/1y/
+
 ncview  ./????/eORCA025.L75-IMHOTEP.GAI_y????.1y_gridTsurf.nc &
 ```
 
