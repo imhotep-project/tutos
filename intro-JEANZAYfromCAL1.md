@@ -1,5 +1,5 @@
+_Last update: 2023-05-15 by SLX._
 
-- - - -
 # 1. JZ access:
 ### ssh to CAL1 from your local computer (`ssh -Y yourlogin@ige-meom-cal1.u-ga.fr`):
 * Open file  `.bash_profile` or `.bashrc`in your local $home directory:
